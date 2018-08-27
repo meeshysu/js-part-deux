@@ -1,1 +1,1 @@
-JS Objects and Strings
+js-part-deux: JS Objects and Strings
