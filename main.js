@@ -62,3 +62,16 @@ console.log('indexof pea', pie.indexOf('pea'));// will return 0 because that is 
 const quote = 'winter is coming';
 const newQuote = quote.replace(/is/g, "ain't");//g means globally; regular expression
 console.log('newQuote', newQuote);
+
+
+
+
+//objects do not really matter as far as order, while arrays need order. 
+
+const fancyObject = {};
+
+fancyObject.color = 'red';
+fancyObject['number'] = 10;
+console.log("fancyObject", fancyObject);
+
+
