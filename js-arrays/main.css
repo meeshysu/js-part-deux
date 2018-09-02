@@ -1,0 +1,112 @@
+ body {
+     background-color: slategray;
+ }
+
+ #bigTitle p {
+    text-align: center;
+    font-size: 75px;
+    padding: auto;
+    margin: 0;
+}
+
+#littleTitle p {
+    text-align: center;
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+    border-bottom: 2px black dotted;
+    padding-bottom: 20px;
+}
+
+#congressionalDistrict {
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#donationForm {
+    margin: auto;
+    text-align: center;
+}
+
+#donationForm:before {
+    content: "Want to donate to Elizabeth's campaign?   ";
+}
+
+<<<<<<< HEAD
+
+.events {
+    background-color: chartreuse;
+    border: 1px dotted black;
+    width: 50%;
+}
+
+#congressionalDistrict {
+    margin: auto;
+=======
+#statements {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;   
+    justify-content: space-evenly;
+    text-align: center;
+    font-variant: small-caps;
+    margin: 20px;
+    padding: 40px;
+}
+
+#events {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 40px;
+    margin: 20px;
+}
+
+#volunteers {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+>>>>>>> 55081463123b3e9429d1ebec2b4404d4cc3cebe0
+    text-align: center;
+    padding: 40px;
+    margin: 20px;
+}
+
+#biography {
+    font-size: 65px;
+    font-weight: bold;
+    text-align: center;
+}
+
+<<<<<<< HEAD
+=======
+#voterRegistration {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 40px;
+    margin: 20px;
+}
+
+#images {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+<<<<<<< HEAD
+    justify-content: space-between;
+>>>>>>> 55081463123b3e9429d1ebec2b4404d4cc3cebe0
+=======
+    justify-content: space-between;   
+}
+
+#images imageUrl {
+    max-width: 30%;
+>>>>>>> cc290fa47a1ecf0e9f420679cc4c2cc588152916
+}
